@@ -1,0 +1,165 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;700&family=Roboto+Mono:wght@300;400;500;600&display=swap');
+
+html, .signup-btn-primary {
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+}
+
+html, body, #form1 {
+    max-height: 100%;
+    width: 100%;
+    
+}
+
+body {
+    background-color: #121212;
+    color: #7a7a7a;
+}
+
+#form1 {
+    margin-top: 4em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+.top-bar {
+    position: fixed;
+    left: 0;
+    top: 0;
+
+    color: black;
+    background-color: purple;
+    width: 96%;
+    height: 3em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2%;
+}
+
+#btnExitSession {
+    color: white;
+    font-weight: 500;
+    font-size: 1em;
+    background-color: #391783;
+    width: 5em;
+    max-width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    cursor: pointer;
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+
+ #btnExitSession:hover {
+    background-color: #462293;
+ }
+
+ #btnExitSession:active, #btnExitSession:focus {
+    background-color: #321472;
+ }
+
+.gridView {
+    width: 100%;
+    word-wrap: break-word;
+    table-layout: fixed;
+}
+
+.element {
+    width: 40em;
+    padding: 2em;
+    background-color: #1e1e1e;
+    box-shadow: 0px 2px 5px black;
+    border-radius: 4px;
+    margin-top: 2em;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn {
+    color: white;
+    font-weight: 500;
+    font-size: 1em;
+    background-color: #391783;
+    width: 100%;
+    height: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    cursor: pointer;
+    border: 2px solid black;
+    box-sizing: border-box;
+
+}
+
+.btn:hover {
+    background-color: #462293;
+}
+
+    .btn:active, .btn:focus {
+        background-color: #321472;
+    }
+
+    
+.crudBtns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.crudBtn {
+    width: 48%;
+    margin: 0;
+}
+
+.elChild {
+    margin-top: 1em;
+}
+.elChild:nth-child(1) {
+    margin: 0;
+}
+
+
+.txtBox {
+    font-size: 1em;
+    min-width: 100%;
+    max-width: 100%;
+    height: 2em;
+    background-color: #7a7a7a;
+    color: black;
+    border: 2px solid black;
+    box-sizing: border-box;
+    margin-bottom: .5em;
+}
+
+    .txtBox:active, .txtBox:focus {
+        background-color: #9f9f9f;
+        outline: none;
+    }
+
+.txtBox:last-child {
+    margin-bottom: 0;
+}
+
+#gridView {
+    width: 70em;
+}
+
+a {
+    color: yellow;
+}
+
+a:focus, a:active {
+    color: green;
+}
